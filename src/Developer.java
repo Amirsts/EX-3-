@@ -18,7 +18,7 @@ public class Developer extends Employee implements Reportable{
     public double calculateBonus() {
         double bonus = getBaseSalary() * 0.10;
         if ("Java".equalsIgnoreCase(programmingLanguage)) {
-            bonus += 1_000_000;
+            bonus += 500_000;
         }
         return bonus;
     }
